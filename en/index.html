@@ -38,11 +38,11 @@ a{color:#0B1F3A}a:hover{color:#1C3A66}
 <a href="#top" aria-label="IATC – Home" style="display: flex; align-items: center; gap: 2px; text-decoration: none; color: #FFFFFF; font-family: 'Be Vietnam Pro', sans-serif; font-weight: 800; font-size: 28px; letter-spacing: 1px">IAT<svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path d="M24 7.5A11 11 0 1 0 24 22.5" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"></path><path d="M15 15L22 9.5" stroke="#FF6B1A" stroke-width="3" stroke-linecap="round"></path><circle cx="15" cy="15" r="2.5" fill="#FF6B1A"></circle></svg></a>
 <nav aria-label="Main menu" style="display: flex; flex-wrap: wrap; gap: 22px; font-size: 15px; font-weight: 500">
 <a href="#solutions" style="color: #DCE4EF; text-decoration: none">Enterprise Solutions</a>
-<a href="../#lich" style="color: #DCE4EF; text-decoration: none">Evening Courses</a>
+<a hidden href="../#lich" style="color: #DCE4EF; text-decoration: none">Evening Courses</a>
 <a href="#kaizen" style="color: #DCE4EF; text-decoration: none">AI Kaizen</a>
-<a href="#cases" style="color: #DCE4EF; text-decoration: none">Case Studies</a>
-<a href="#partners" style="color: #DCE4EF; text-decoration: none">Partners</a>
-<a href="#insights" style="color: #DCE4EF; text-decoration: none">Insights</a>
+<a hidden href="#cases" style="color: #DCE4EF; text-decoration: none">Case Studies</a>
+<a hidden href="#partners" style="color: #DCE4EF; text-decoration: none">Partners</a>
+<a hidden href="#insights" style="color: #DCE4EF; text-decoration: none">Insights</a>
 <a href="#about" style="color: #DCE4EF; text-decoration: none">About</a>
 </nav>
 <div style="display: flex; align-items: center; gap: 14px">
@@ -61,7 +61,7 @@ a{color:#0B1F3A}a:hover{color:#1C3A66}
 <p style="margin: 0; font-size: 19px; line-height: 1.6; color: #C9D4E3; max-width: 620px">IATC trains and coaches manufacturers in Vietnam to put AI into real workflows, from production planning and QC to plant back offices, and builds in-house AI Mentor teams so the improvement continues after we leave.</p>
 <div style="display: flex; flex-wrap: wrap; gap: 14px; padding-top: 8px">
 <a href="#diagnostic" style="background: #FF6B1A; color: #0B1F3A; text-decoration: none; font-weight: 700; font-size: 17px; padding: 16px 24px; border-radius: 8px">Book an AI diagnostic for your plant</a>
-<a href="#partners" style="color: #FFFFFF; text-decoration: none; font-weight: 600; font-size: 17px; padding: 15px 23px; border-radius: 8px; border: 1px solid #5A7299">Partner with IATC</a>
+<a href="#diagnostic" style="color: #FFFFFF; text-decoration: none; font-weight: 600; font-size: 17px; padding: 15px 23px; border-radius: 8px; border: 1px solid #5A7299">Partner with IATC</a>
 </div>
 </div>
 <div style="flex: 1 1 380px; min-width: 0; background: #10284A; border: 1px solid #23406A; border-radius: 16px; padding: 28px; display: flex; flex-direction: column; gap: 18px">
@@ -98,13 +98,13 @@ a{color:#0B1F3A}a:hover{color:#1C3A66}
 <p style="margin: 0; font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #4A5568">02 · INTERNATIONAL PARTNERS</p>
 <h3 style="margin: 0; font-family: 'Be Vietnam Pro', sans-serif; font-size: 24px; font-weight: 700">AI companies &amp; institutions</h3>
 <p style="margin: 0; font-size: 16px; line-height: 1.6; color: #4A5568; flex-grow: 1">Bring your AI solution or curriculum to Vietnam’s industrial parks through our training network, associations and local delivery team.</p>
-<a href="#partners" style="color: #0B1F3A; font-weight: 700; font-size: 16px">See partnership models →</a>
+<a href="#diagnostic" style="color: #0B1F3A; font-weight: 700; font-size: 16px">Discuss a partnership →</a>
 </div>
 <div style="background: #FFFFFF; border: 1px solid #DDE3EC; border-radius: 14px; padding: 32px; display: flex; flex-direction: column; gap: 14px">
 <p style="margin: 0; font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #4A5568">03 · PROFESSIONALS</p>
 <h3 style="margin: 0; font-family: 'Be Vietnam Pro', sans-serif; font-size: 24px; font-weight: 700">Evening AI courses</h3>
 <p style="margin: 0; font-size: 16px; line-height: 1.6; color: #4A5568; flex-grow: 1">The 3+3 course: three evenings in central Ho Chi Minh City, then three weeks of coached online practice. Groups of five per AI Mentor. VND 3.6 million.</p>
-<a href="../#lich" style="color: #0B1F3A; font-weight: 700; font-size: 16px">See schedule →</a>
+<a href="#diagnostic" style="color: #0B1F3A; font-weight: 700; font-size: 16px">Ask about the next intake →</a>
 </div>
 </div>
 </div>
@@ -171,7 +171,8 @@ a{color:#0B1F3A}a:hover{color:#1C3A66}
 </div>
 </section>
 
-<section id="cases" style="padding: 96px 24px; background: #FFFFFF">
+<!-- TẠM ẨN theo yêu cầu Thầy Long 19/11/2026: xóa chữ hidden để hiện lại -->
+<section hidden id="cases" style="padding: 96px 24px; background: #FFFFFF">
 <div style="max-width: 1200px; margin: 0 auto; display: flex; flex-direction: column; gap: 36px">
 <div style="display: flex; flex-direction: column; gap: 10px; max-width: 760px">
 <p style="margin: 0; font-family: 'IBM Plex Mono', monospace; font-size: 13px; letter-spacing: 2px; color: #B4460A">RESULTS</p>
@@ -207,7 +208,8 @@ a{color:#0B1F3A}a:hover{color:#1C3A66}
 </div>
 </section>
 
-<section id="partners" style="padding: 88px 24px; background: #F5F7FA">
+<!-- TẠM ẨN theo yêu cầu Thầy Long 19/11/2026: xóa chữ hidden để hiện lại -->
+<section hidden id="partners" style="padding: 88px 24px; background: #F5F7FA">
 <div style="max-width: 1200px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 48px">
 <div style="flex: 1 1 420px; min-width: 0; display: flex; flex-direction: column; gap: 14px">
 <p style="margin: 0; font-family: 'IBM Plex Mono', monospace; font-size: 13px; letter-spacing: 2px; color: #B4460A">ECOSYSTEM</p>
@@ -231,7 +233,8 @@ a{color:#0B1F3A}a:hover{color:#1C3A66}
 </div>
 </section>
 
-<section id="insights" style="padding: 88px 24px; background: #FFFFFF">
+<!-- TẠM ẨN theo yêu cầu Thầy Long 19/11/2026: xóa chữ hidden để hiện lại -->
+<section hidden id="insights" style="padding: 88px 24px; background: #FFFFFF">
 <div style="max-width: 1200px; margin: 0 auto; display: flex; flex-direction: column; gap: 32px">
 <div style="display: flex; flex-direction: column; gap: 10px">
 <p style="margin: 0; font-family: 'IBM Plex Mono', monospace; font-size: 13px; letter-spacing: 2px; color: #B4460A">INSIGHTS</p>
