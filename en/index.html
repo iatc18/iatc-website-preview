@@ -22,7 +22,7 @@ a{color:#0B1F3A}a:hover{color:#1C3A66}
 </style>
 </head>
 <body>
-<div class="draft-bar">DRAFT FOR REVIEW · Forms are not active yet</div>
+<div class="draft-bar">DRAFT FOR REVIEW · Contact form is live</div>
 <div style="font-family: Inter, system-ui, sans-serif; color: #0B1F3A; background: #FFFFFF; width: 100%">
 
 <header style="background: #0B1F3A; border-bottom: 1px solid #1C3355">
@@ -264,18 +264,22 @@ a{color:#0B1F3A}a:hover{color:#1C3A66}
 </div>
 <p style="margin: 0; font-size: 15px; color: #C9D4E3">Or call +84 38 997 3818 · hcm@iatcvn.com</p>
 </div>
-<form style="flex: 1 1 460px; min-width: 0; background: #FFFFFF; color: #0B1F3A; border-radius: 16px; padding: 32px; display: flex; flex-direction: column; gap: 16px">
+<form id="iatc-form" novalidate style="flex: 1 1 460px; min-width: 0; background: #FFFFFF; color: #0B1F3A; border-radius: 16px; padding: 32px; display: flex; flex-direction: column; gap: 16px">
+<p style="margin: 0; font-family: 'Be Vietnam Pro', sans-serif; font-weight: 700; font-size: 20px">Request a call or diagnostic</p>
+<input type="hidden" name="page" value="en-home">
+<div aria-hidden="true" style="position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden"><label>Website<input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 14px">
-<label style="display: flex; flex-direction: column; gap: 6px; font-size: 14px; font-weight: 600">Full name<input type="text" style="font: inherit; font-weight: 400; border: 1px solid #B9C3D1; border-radius: 8px; padding: 12px; min-height: 44px; box-sizing: border-box"></label>
-<label style="display: flex; flex-direction: column; gap: 6px; font-size: 14px; font-weight: 600">Job title<input type="text" style="font: inherit; font-weight: 400; border: 1px solid #B9C3D1; border-radius: 8px; padding: 12px; min-height: 44px; box-sizing: border-box"></label>
-<label style="display: flex; flex-direction: column; gap: 6px; font-size: 14px; font-weight: 600">Company<input type="text" style="font: inherit; font-weight: 400; border: 1px solid #B9C3D1; border-radius: 8px; padding: 12px; min-height: 44px; box-sizing: border-box"></label>
-<label style="display: flex; flex-direction: column; gap: 6px; font-size: 14px; font-weight: 600">Work email<input type="email" style="font: inherit; font-weight: 400; border: 1px solid #B9C3D1; border-radius: 8px; padding: 12px; min-height: 44px; box-sizing: border-box"></label>
+<label style="display: flex; flex-direction: column; gap: 6px; font-size: 14px; font-weight: 600">Full name<input type="text" name="name" required maxlength="200" style="font: inherit; font-weight: 400; border: 1px solid #B9C3D1; border-radius: 8px; padding: 12px; min-height: 44px; box-sizing: border-box"></label>
+<label style="display: flex; flex-direction: column; gap: 6px; font-size: 14px; font-weight: 600">Job title<input type="text" name="title" maxlength="200" style="font: inherit; font-weight: 400; border: 1px solid #B9C3D1; border-radius: 8px; padding: 12px; min-height: 44px; box-sizing: border-box"></label>
+<label style="display: flex; flex-direction: column; gap: 6px; font-size: 14px; font-weight: 600">Company<input type="text" name="company" maxlength="200" style="font: inherit; font-weight: 400; border: 1px solid #B9C3D1; border-radius: 8px; padding: 12px; min-height: 44px; box-sizing: border-box"></label>
+<label style="display: flex; flex-direction: column; gap: 6px; font-size: 14px; font-weight: 600">Work email<input type="email" name="contact" required maxlength="200" style="font: inherit; font-weight: 400; border: 1px solid #B9C3D1; border-radius: 8px; padding: 12px; min-height: 44px; box-sizing: border-box"></label>
 </div>
-<label style="display: flex; flex-direction: column; gap: 6px; font-size: 14px; font-weight: 600">Start with<select style="font: inherit; font-weight: 400; border: 1px solid #B9C3D1; border-radius: 8px; padding: 12px; min-height: 44px; background: #FFFFFF"><option>30-minute intro call (free)</option><option>On-site AI diagnostic (half day)</option></select></label>
-<label style="display: flex; flex-direction: column; gap: 6px; font-size: 14px; font-weight: 600">Interested in<select style="font: inherit; font-weight: 400; border: 1px solid #B9C3D1; border-radius: 8px; padding: 12px; min-height: 44px; background: #FFFFFF"><option>3-Month AI Coaching</option><option>1+5 In-house Program</option><option>Twin Transition: AI + ESG</option><option>Partnership / distribution</option></select></label>
-<label style="display: flex; gap: 10px; align-items: flex-start; font-size: 13px; line-height: 1.5; color: #4A5568"><input type="checkbox" style="width: 20px; height: 20px; margin: 0; flex-shrink: 0">I agree that IATC may process this information to contact me, under its Personal Data Protection Policy.</label>
-<label style="display: flex; gap: 10px; align-items: flex-start; font-size: 13px; line-height: 1.5; color: #4A5568"><input type="checkbox" style="width: 20px; height: 20px; margin: 0; flex-shrink: 0">Send me insights and workshop invitations (optional).</label>
-<button type="button" style="background: #FF6B1A; color: #0B1F3A; border: 0; font: inherit; font-weight: 700; font-size: 17px; padding: 16px; border-radius: 8px; cursor: pointer; min-height: 48px">Request a diagnostic</button>
+<label style="display: flex; flex-direction: column; gap: 6px; font-size: 14px; font-weight: 600">Start with<select name="start" style="font: inherit; font-weight: 400; border: 1px solid #B9C3D1; border-radius: 8px; padding: 12px; min-height: 44px; background: #FFFFFF"><option>30-minute intro call (free)</option><option>On-site AI diagnostic (half day)</option></select></label>
+<label style="display: flex; flex-direction: column; gap: 6px; font-size: 14px; font-weight: 600">Interested in<select name="interest" style="font: inherit; font-weight: 400; border: 1px solid #B9C3D1; border-radius: 8px; padding: 12px; min-height: 44px; background: #FFFFFF"><option>3-Month AI Coaching</option><option>1+5 In-house Program</option><option>Twin Transition: AI + ESG</option><option>Partnership / distribution</option></select></label>
+<label style="display: flex; gap: 10px; align-items: flex-start; font-size: 13px; line-height: 1.5; color: #4A5568"><input type="checkbox" style="width: 20px; height: 20px; margin: 0; flex-shrink: 0" name="consent" value="yes" required> <span>I agree that IATC may process this information to contact me, under its Personal Data Protection Policy. (required)</span></label>
+<label style="display: flex; gap: 10px; align-items: flex-start; font-size: 13px; line-height: 1.5; color: #4A5568"><input type="checkbox" style="width: 20px; height: 20px; margin: 0; flex-shrink: 0" name="marketing" value="yes"> <span>Send me insights and workshop invitations (optional).</span></label>
+<button type="submit" style="background: #FF6B1A; color: #0B1F3A; border: 0; font: inherit; font-weight: 700; font-size: 17px; padding: 16px; border-radius: 8px; cursor: pointer; min-height: 48px">Request a diagnostic</button>
+<p id="iatc-form-msg" role="status" aria-live="polite" style="margin: 0; font-size: 14px; line-height: 1.5; font-weight: 600"></p>
 </form>
 </div>
 </section>
@@ -309,5 +313,32 @@ a{color:#0B1F3A}a:hover{color:#1C3A66}
 </footer>
 
 </div>
+<script>
+(function () {
+  var ENDPOINT = 'https://script.google.com/macros/s/AKfycbw4tZwXW-FDTDBFtNiSUKpjPGAnDMU8KF4BgunBpp8w2v6__cxzs0V9W0Pw0Yg5QgE0AA/exec';
+  var f = document.getElementById('iatc-form');
+  var msg = document.getElementById('iatc-form-msg');
+  if (!f) return;
+  var el = f.elements;
+  document.querySelectorAll('[data-course]').forEach(function (a) {
+    a.addEventListener('click', function () {
+      el['start'].value = a.getAttribute('data-start');
+      el['interest'].value = a.getAttribute('data-course');
+    });
+  });
+  f.addEventListener('submit', function (ev) {
+    ev.preventDefault();
+    msg.style.color = '#B4460A';
+    if (!el['name'].value.trim() || !el['contact'].value.trim()) { msg.textContent = 'Please enter your name and work email.'; return; }
+    if (!el['consent'].checked) { msg.textContent = 'Please tick the data-processing consent box to submit.'; return; }
+    var btn = f.querySelector('button[type=submit]');
+    btn.disabled = true; btn.textContent = 'Sending...'; msg.textContent = '';
+    fetch(ENDPOINT, { method: 'POST', mode: 'no-cors', body: new URLSearchParams(new FormData(f)) })
+      .then(function () { f.reset(); msg.style.color = '#0B1F3A'; msg.textContent = '\u2713 ' + 'Thank you! IATC has received your request and will contact you within one business day.'; })
+      .catch(function () { msg.textContent = 'Something went wrong. Please try again or call +84 38 997 3818.'; })
+      .then(function () { btn.disabled = false; btn.textContent = 'Request a diagnostic'; });
+  });
+})();
+</script>
 </body>
 </html>
