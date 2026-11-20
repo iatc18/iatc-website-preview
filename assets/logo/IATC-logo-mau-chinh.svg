@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 8 305 104" width="305" height="104">
+<title>IATC – Industrial AI Training Center</title>
+<g transform="translate(24 0) skewX(-12)">
+<path d="M14.5 10V110 M117.5 22.5H197.5 M157.5 35V110 M274.52 86.52A37.5 37.5 0 1 1 235.17 24.76" fill="none" stroke="#0B1F3A" stroke-width="25" stroke-linejoin="miter" stroke-miterlimit="2"/>
+<path d="M34 110L73.57 10H98.57L138.14 110H111.26L86.07 46.34L60.88 110Z" fill="#0B1F3A"/>
+<path d="M238.93 23.61A37.5 37.5 0 0 1 274.52 33.48" fill="none" stroke="#FF6B1A" stroke-width="25"/>
+<path d="M248 60L256.45 41.87" fill="none" stroke="#FF6B1A" stroke-width="7.5" stroke-linecap="round"/>
+<circle cx="248" cy="60" r="7.5" fill="#0B1F3A"/>
+<path d="M86.07 61L97.07 86H75.07Z" fill="#FF6B1A"/>
+</g>
+</svg>

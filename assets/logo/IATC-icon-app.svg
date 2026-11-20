@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+<title>IATC – icon ứng dụng</title>
+<rect width="512" height="512" rx="112" fill="#0B1F3A"/>
+<svg x="106" y="106" width="300" height="300" viewBox="182 0 120 120">
+<path d="M274.52 86.52A37.5 37.5 0 1 1 235.17 24.76" fill="none" stroke="#FFFFFF" stroke-width="25"/>
+<path d="M238.93 23.61A37.5 37.5 0 0 1 274.52 33.48" fill="none" stroke="#FF6B1A" stroke-width="25"/>
+<path d="M248 60L256.45 41.87" fill="none" stroke="#FF6B1A" stroke-width="7.5" stroke-linecap="round"/>
+<circle cx="248" cy="60" r="7.5" fill="#FFFFFF"/>
+</svg>
+</svg>
