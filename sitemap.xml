@@ -15,9 +15,25 @@
   <url>
     <loc>https://iatcvn.com/bao-ve-du-lieu-ca-nhan/</loc>
     <lastmod>2026-11-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://iatcvn.com/bao-ve-du-lieu-ca-nhan/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://iatcvn.com/en/data-protection/"/>
+  </url>
+  <url>
+    <loc>https://iatcvn.com/en/data-protection/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://iatcvn.com/bao-ve-du-lieu-ca-nhan/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://iatcvn.com/en/data-protection/"/>
   </url>
   <url>
     <loc>https://iatcvn.com/thanh-toan-hoan-bao-luu/</loc>
     <lastmod>2026-11-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://iatcvn.com/thanh-toan-hoan-bao-luu/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://iatcvn.com/en/payment-policy/"/>
+  </url>
+  <url>
+    <loc>https://iatcvn.com/en/payment-policy/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://iatcvn.com/thanh-toan-hoan-bao-luu/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://iatcvn.com/en/payment-policy/"/>
   </url>
 </urlset>
